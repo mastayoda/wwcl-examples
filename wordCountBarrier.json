@@ -23,5 +23,5 @@
     },
     "isPartitioned": false,
     "hasAftBarr": true,
-    "afBarrFunc": "var singleRslt=resultsArr[0];var wrdCountArr=singleRslt.wcArr;var totalWrds=singleRslt.wcTotal;var acu=0;for(i=0;i<wrdCountArr.length;i++){acu+=wrdCountArr[i];}if(acu==totalWrds){result='Results match! '+acu+' = '+totalWrds;}else{result='Does not match! '+acu+ ' != '+totalWrds;}"
+    "afBarrFunc": "var singleRslt=resultsArr[0];var wrdCountArr=singleRslt.wcArr;var totalWrds=singleRslt.wcTotal;var acu=0;for(i=0;i<wrdCountArr.length;i++){  acu+=wrdCountArr[i];}if(acu==totalWrds){  result='Results match! '+acu+' = '+totalWrds;}else{  result='Does not match! '+acu+' != '+totalWrds;}"
 }

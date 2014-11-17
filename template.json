@@ -1,0 +1,11 @@
+{
+    "name": "",
+    "desc": "",
+    "kernel": "",
+    "params": {
+
+    },
+    "isPartitioned": false,
+    "hasAftBarr": false,
+    "afBarrFunc": ""
+}

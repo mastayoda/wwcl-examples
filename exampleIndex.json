@@ -1,5 +1,5 @@
 [
-	"https://raw.githubusercontent.com/mastayoda/wwcl-examples/master/calculatePI.json",
-	"https://raw.githubusercontent.com/mastayoda/wwcl-examples/master/wordCount.json",
-	"https://raw.githubusercontent.com/mastayoda/wwcl-examples/master/wordCountBarrier.json"	
+	"calculatePI.json",
+	"wordCount.json",
+	"wordCountBarrier.json",	
 ]

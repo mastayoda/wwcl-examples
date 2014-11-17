@@ -1,11 +1,5 @@
-{
-    "name": "",
-    "desc": "",
-    "kernel": "",
-    "params": {
-
-    },
-    "isPartitioned": false,
-    "hasAftBarr": false,
-    "afBarrFunc": ""
-}
+[
+	"https://raw.githubusercontent.com/mastayoda/wwcl-examples/master/calculatePI.json",
+	"https://raw.githubusercontent.com/mastayoda/wwcl-examples/master/wordCount.json",
+	"https://raw.githubusercontent.com/mastayoda/wwcl-examples/master/wordCountBarrier.json"	
+]

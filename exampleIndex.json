@@ -1,5 +1,7 @@
-[
-	"calculatePI.json",
-	"wordCount.json",
-	"wordCountBarrier.json",	
-]
+{
+    "arr": [
+        "calculatePI.json",
+        "wordCount.json",
+        "wordCountBarrier.json"
+    ]
+}

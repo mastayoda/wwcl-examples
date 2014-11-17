@@ -1,7 +1,7 @@
 {
     "name": "Word Count With Barrier",
     "desc": "The Word Count example implementing an after barrier function.",
-    "kernel": "var sentenceArr=params.arr;var wordCountArr=[];var totalWords=0;for(i=0;i<sentenceArr.length;i++){var count=sentenceArr[i].split(\"\").length;wordCountArr.push(count);totalWords+=count}result={wcArr:wordCountArr,wcTotal:totalWords}",
+    "kernel": "var sentenceArr=params.arr;var wordCountArr=[];var totalWords=0;for(i=0;i<sentenceArr.length;i++){var count=sentenceArr[i].split(\"\").length;wordCountArr.push(count);totalWords+=count;}result={wcArr:wordCountArr,wcTotal:totalWords};",
     "params": {
         "arr": [
             "A long time ago, in a galaxy far, far away....",

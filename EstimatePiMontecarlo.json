@@ -1,7 +1,7 @@
 {
     "name": "Estimate Pi with Montecarlo",
     "desc": "This program will estimate Pi using a Parallel Montecarlo Algorithm.",
-    "kernel": "var niter=100000;var x,y;var i,count=0;var z;var pi;count=0;for(i=0;i<niter;i++){x=Math.random();y=Math.random();z=x*x+y*y;if(z<=1)count++;}pi=count/niter*4;result={Pi:pi};";
+    "kernel": "var niter=100000;var x,y;var i,count=0;var z;var pi;count=0;for(i=0;i<niter;i++){x=Math.random();y=Math.random();z=x*x+y*y;if(z<=1)count++;}pi=count/niter*4;result={Pi:pi};",
     "params": {
     },
     "isPartitioned": false,

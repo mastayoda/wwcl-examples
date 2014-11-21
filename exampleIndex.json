@@ -2,6 +2,7 @@
     "arr": [
         "calculatePI.json",
         "wordCount.json",
-        "wordCountBarrier.json"
+        "wordCountBarrier.json",
+		"EstimatePiMontecarlo.json"
     ]
 }

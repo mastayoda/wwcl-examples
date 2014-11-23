@@ -1,5 +1,6 @@
 {
     "arr": [
+        "countPrimesOddEratosthenes.json",
         "calculatePI.json",
         "wordCount.json",
         "wordCountBarrier.json",

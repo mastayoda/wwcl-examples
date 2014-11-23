@@ -23,5 +23,7 @@
     },
     "isPartitioned": false,
     "hasAftBarr": false,
-    "afBarrFunc": ""
+    "afBarrFunc": "",
+    "hasContext": false,
+    "context": ""
 }

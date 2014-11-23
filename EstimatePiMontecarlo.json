@@ -6,5 +6,7 @@
     },
     "isPartitioned": false,
     "hasAftBarr": true,
-    "afBarrFunc": "var pi=0;for(i=0;i<resultsArr.length;i++){var singleRslt=resultsArr[i];pi+=singleRslt.Pi;}result={result:pi/resultsArr.length, context:'Pi is equal to: '};"
+    "afBarrFunc": "var pi=0;for(i=0;i<resultsArr.length;i++){var singleRslt=resultsArr[i];pi+=singleRslt.Pi;}result={result:pi/resultsArr.length};",
+    "hasContext": true,
+    "context": "The estimated value of Pi is: "
 }

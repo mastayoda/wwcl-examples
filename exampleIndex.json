@@ -3,6 +3,7 @@
         "calculatePI.json",
         "wordCount.json",
         "wordCountBarrier.json",
-        "EstimatePiMontecarlo.json"
+        "EstimatePiMontecarlo.json",
+        "characerCountPartitioned.json"
     ]
 }

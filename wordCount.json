@@ -1,5 +1,5 @@
 {
-    "name": "Word Cound",
+    "name": "Word Count",
     "desc": "A simple Word Count Job.",
     "kernel": "var sentenceArr=params.data.arr;var wordCountArr=[];var totalWords=0;for(i=0;i<sentenceArr.length;i++){var count=sentenceArr[i].split(\"\").length;wordCountArr.push(count);totalWords+=count;}result={wcArr:wordCountArr,wcTotal:totalWords};",
     "params": {

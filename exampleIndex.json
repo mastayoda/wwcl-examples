@@ -3,6 +3,7 @@
         "generatePrimesOddEratosthenes.json",
         "generatePrimesOddEratosthenesOptimized.json",
         "countPrimesOddEratosthenes.json",
+        "EstimatePiMontecarloPartitioned.json",
         "countPrimesOddEratosthenesOptimized.json",
         "calculatePI.json",
         "wordCount.json",

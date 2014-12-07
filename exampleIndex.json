@@ -1,6 +1,7 @@
 {
     "arr": [
         "generatePrimesOddEratosthenes.json",
+        "generatePrimesOddEratosthenesOptimized.json",
         "countPrimesOddEratosthenes.json",
         "countPrimesOddEratosthenesOptimized.json",
         "calculatePI.json",

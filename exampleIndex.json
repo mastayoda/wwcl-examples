@@ -2,6 +2,7 @@
     "arr": [
         "generatePrimesOddEratosthenes.json",
         "countPrimesOddEratosthenes.json",
+        "countPrimesOddEratosthenesOptimized.json",
         "calculatePI.json",
         "wordCount.json",
         "wordCountBarrier.json",

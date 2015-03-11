@@ -1,5 +1,6 @@
 {
     "arr": [
+        "mapReduceWordCountPartitioned.json",
         "generatePrimesOddEratosthenes.json",
         "generatePrimesOddEratosthenesOptimized.json",
         "countPrimesOddEratosthenes.json",

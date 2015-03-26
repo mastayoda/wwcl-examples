@@ -1,0 +1,13 @@
+{
+	"name": "Sample Remote File 1GB",
+    "desc": "",
+    "kernel": "var fields = params.split(\",\");\nvar firstNameLetter = fields[0].charAt(0).toUpperCase();\n\n/* Extracting age */\nvar d1 = new Date(fields[3]);\nvar d2 = new Date();\nvar milli = d2 - d1;\n\nvar age = parseInt(milli / 31558464000, 10);\n\n\nresult = {};\nresult[firstNameLetter] = {c:1,t:age};",
+    "reduceCode": "for(var key in now)\n{\n  if(last[key])\n  {\n    last[key].c++;\n    last[key].t += now[key].t;\n  }\n  else\n  {\n    last[key] = now[key];\n  }\n}\n\nresult = last;",
+    "params": "{\n\"file\":\"/u/antor/u28/vsantosu/wwcl/dataset/dataset1GB.csv\",\n \"lines\":4258709\n}",
+    "isPartitioned": false,
+    "readFromDisk": true,
+    "hasAftBarr": true,
+    "hasReduce": true,
+    "hasContext": false,
+    "afBarrFunc": "var letters = {};\nfor(var i=0;i<resultsArr.length;i++)\n{\n    for(var key in resultsArr[i])\n    {\n         if(letters[key])\n        {\n            letters[key].c+= resultsArr[i][key].c;\n            letters[key].t+= resultsArr[i][key].t;\n        }\n        else\n        {\n            letters[key] = {c:resultsArr[i][key].c, t:resultsArr[i][key].t};\n        }\n    }   \n}\n\n/* Writing Final Results */\n\nfor(var key in letters)\n{\n   letters[key] = letters[key].t / letters[key].c;\n}\n\nresult={\n  result:letters};"
+}

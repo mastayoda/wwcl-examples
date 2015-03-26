@@ -10,6 +10,9 @@
         "wordCount.json",
         "wordCountBarrier.json",
         "EstimatePiMontecarlo.json",
-        "characerCountPartitioned.json"
+        "characerCountPartitioned.json",
+        "sampelRemoteFile1GB.json",
+        "sampelRemoteFile5GB.json",
+        "sampelRemoteFile10GB.json",
     ]
 }

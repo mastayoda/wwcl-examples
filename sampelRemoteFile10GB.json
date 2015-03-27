@@ -5,7 +5,7 @@
     "reduceCode": "for(var key in now)\n{\n  if(last[key])\n  {\n    last[key].c++;\n    last[key].t += now[key].t;\n  }\n  else\n  {\n    last[key] = now[key];\n  }\n}\n\nresult = last;",
     "params": {
         "file": "/u/antor/u28/vsantosu/wwcl/dataset/dataset10GB.csv",
-        "lines": 42587105
+        "lines": 42587104
     },
     "isPartitioned": false,
     "readFromDisk": true,
